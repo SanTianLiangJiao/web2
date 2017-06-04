@@ -1,346 +1,157 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-	<title>
-		书法
-	</title>
-
-
-
-<style type="text/css">
-
-body{
-color: #522a06;
-
-background-image: url(images/bodybg.gif);
-text-align: center;
-}
-
-	
-#header{
-	margin: 0 auto;
-	height: 205px;
-	background-image: url(images/bg.gif);
-	background-repeat: no-repeat;
-	
-	}
-#banner{
-	margin: 0 auto;
-	width: : 1000px;
-	height: 164px;
-	position:absolute;
-	left: 100px;
-	top: 45px;
-
-	}
-#nav{
-	margin: 0 auto;
-height: 40px;
-float: left;
-
-}
-#nav-body{
-
-	font-weight: 1000px;
-	float: left;
-}
-#nav-content ul{
-	width: 800px;
-
-	float: left;
-
-
-}
-#nav-content ul li{
-
-	float:left;
-	margin: 12px 10px;
-	list-style:none;
-	border-right: 1px;
-}
-#nav-content ul li a{
-color: #fff;
-}
-#nav-search{
-	float: right;
-
-
-}
-a.link{text-decoration: none;color:#f9f603; }
-
-#content{
-	margin: 0 auto;
-
-	width: 1000px;
-	clear:{clear:both;}
-}
-#content-top{
-	overflow: hidden;
-
-
-}
-#content-bottom-left{
-	float: left;
-	width: 715px;
-}
-#content-bottom-right{
-
-	float: right;
-	width: 280px;
-	top: 20px;
-}
-
-#news-pic{
-
-	width: 324px;
-	height: 243px;
-	background-image: url(images/news.jpg);
-	float: left;
-}
-#news-list{
-
-	width: 330px;
-	left: 38px;
-	float: left;
-	background-image: url(images/change.png);
-
-	background-repeat: no-repeat;
-}
-#news-list ul li{
-text-decoration: none;
-
-}
-a{text-decoration: none;
-color: brown;
-font-size: 16px;}
-span{
-	float: right;
-	color: brown;
-}
-#news-announce{
-	width: 277px;
-	top: 20px;
-	float: right;
-	background-repeat: no-repeat;
-	position: relative;
-
-
-
-}
-#news-announce span{
-	position: absolute;
-	top: 7px;
-	left: 0;
-
-}
-#academic{
-	width: 340px;
-	float: left;
-}
-#academic span{
-	float: right;
-
-}
-#book-news{
-	width: 340px;
-	left: 25px;
-	background-image: url(images/book_news.png);
-	background-repeat: no-repeat;
-	float: right;
-}
-#fengcai{
-	width: 700px;
-	clear: both;
-}
-
-#fengcai2{
-	height: 136px;
-	padding: 20px;
-
-}
-#fengcai2 ul li
-{
-	list-style: none;
-	float: left;
-}
-#content-bottom-right{
-	position: relative;
-
-}
-#content-bottom-right span{
-	position: absolute;
-	top: 40px;
-	left: 0;
-}
-#footer{
-	margin: 0 auto;
- position: relative;
-}
-#footer span{
-position: absolute;
-top: 0px;
-left: 0px;
-}
-
-
-#SS ul li{
-	text-decoration: none;
-	float: left;
-}
-#SS{
-	position: relative;
-}
-#SS span{
-	text-decoration: none;
-	position: absolute;
-	top: 0px;
-	left:0px;
-
-}
-
-
-
-
-
-
-</style>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>河北书法家协会培训中心</title>
 </head>
 <body>
+	<!--页头部分-->
+    <div id="header">
+    	<!--logo图片-->
+        <div id="banner">
+        	<img src="images/logo.png">
+        </div>
+        <!--导航栏和搜索框-->
+        <div id="nav" >
+        	<div class="nav_body">
+        		<!--导航栏-->
+        		<div class="nav_content">
+        			<a href="#"><font color="#f9f603">首页</font></a>
+        			<a href="#" class="two0"><font color="#fff"中心概况</a>|
+        			<a href="#" class="two" >培训动态</a>|
+        			<a href="#" class="two" >学术争鸣</a>|
+        			<a href="#" class="two" >书坛新闻</a>|
+        			<a href="#" class="two" >名家展厅</a>|
+        			<a href="#" class="two" >燕赵风采</a>|
+        			<a href="#" class="two" >经典解读与示范</a>|
+        			<a href="#" class="two" id="xsw">谏言互动</a>
+        		</div>
+        		<!--搜索框-->
+        		<div class="nav_search">
+        				<input type="text"/ style="width: 140px;height: 19px;background-color: #f8f5ee">
+        				<input type="button" value="搜索"/>
+        		</div>
+        	</div>
+        </div>
+    </div>
+    <!--页面主体部分-->
+    <div id="content">
+    	<div id="content_top">
+    		<div class="news_pic">
+    			<img src="images/news.jpg" class="l">
+    			<div class="w">"曲径通幽"书写人生传奇</div>
+    		</div>
+    		<div class="ljc">
+    			<div id="news_list"></div>
+    			<span class="more"></span>
+    			<div class="x">
+    				<ul>
+    				<li ><a href="#" style="color: #522a06;">臻·妙--谢云、苏士澎在北京雍········  </a></li>
+    				<li><a href="#" style="color: #522a06;">“守望相助·尽责圆梦”中国书法家协会创作活···</a></li>
+    				<li><a href="#" style="color: #522a06;">中国书法出版传媒有限责任公司问共和</a></li>
+    				<li><a href="#" style="color: #522a06;">“中国书法之乡命名授牌仪式在河南省郑县举行”</a></li>
+    				<li><a href="#" style="color: #522a06;">中国文学博物馆馆藏书画精品展暨中国字</a></li>
+    				<li><a href="#" style="color: #522a06;">第一节兰亭学校师生书法作品展获奖、入展名单</a></li>
+    				<li><a href="#" style="color: #522a06;">第25届中日友好自作诗书交流展</a></li>
+    				</ul>
 
-<div id="header">
-	<div id="banner">   <!--图片-->
-<img src="images/logo.png">
-	</div>
-	<div id="nav">      <!--导航栏和搜索框-->
-			<div id="nav-body">
-			
-		
-				<div id="nav-content">    <!--导航栏-->
-			
-				</div>	
-				<div id="nav-search">    <!--搜索框-->
-			
-				</div>
-			</div>
-	</div>
-</div>
-
-<div id="SS">
-<img src="images/nav.jpg" ; width="1212px">
-
-<span><ul>
-				<li><a href="#">首页</a></li>
-				<li><a href="#">中心概况</a></li>
-				<li><a href="#">培训动态</a></li>
-				<li><a href="#">学术争鸣</a></li>
-				<li><a href="#">书坛新闻</a></li>
-				<li><a href="#">名家展厅</a></li>
-				<li><a href="#">燕赵风采</a></li>
-				<li><a href="#">经典解读与示范</a></li>
-				<li><a href="#">谏言互动</a></li>
-				
-			</ul>
-			</span>
-	
-</div>
-<div id="content">
-	<div id="content-top">
-		<div id="news-pic"><!--图片-->
-			
-		</div>
-		<div id="news-list"><!--动态培训-->
-		<span><img src="images/view.png"></span>
-			<ul>
-				<li><a href="#">臻·妙——谢云、苏士澍在北京雍……<span>[04-25]</span></a></li>
-				<li><a href="#">“守望相助?尽责圆梦”中国书法家协会创作活...<span>[04-25]</span></a></li>
-				<li><a href="#">中国书法出版传媒有限责任公司问共和<span>[04-25]</span></a></li>
-				<li><a href="#">“中国书法之乡”命名授牌仪式在河南省郏县举行<span>[04-25]</span></a></li>
-				<li><a href="#">中国文字博物馆馆藏书画精品展暨中国字<span>[04-25]</span></a></li>
-				<li><a href="#">第一届兰亭学校师生书法作品展获奖、入展名单<span>[04-25]</span></a></li>
-				<li><a href="#">第25届中日友好自作诗书交流展<span>[04-25]</span></a></li>
-
-
-
-			</ul>
-		</div>
-		<div id="news-announce"><!--站内广告-->
-		<img src="images/board.png" ; height="20px">
-		<img src="images/board_bg.png">
-		<span>
-			<ul>
-				<li><a href="#">臻·妙——谢云、苏士澍在北京雍</a></li>
-				<li><a href="#">“守望相助?尽责圆梦”中国书法家协会创作活</a></li>
-				<li><a href="#">中国书法出版传媒有限责任公司问共和</a></li>
-				<li><a href="#">“中国书法之乡”命名授牌仪式在河南省郏县举行</a></li>
-				<li><a href="#">中国文字博物馆馆藏书画精品展暨中国字</a></li>
-				<li><a href="#">第一届兰亭学校师生书法作品展获奖、入展名单</a></li>
-				</ul>
-
-		</span>
-
-			
-		</div>
-	</div>
-
-	<div id="content-bottom-left">
-		<div id="academic">
-			<img  src="images/academic.png" ; height="54px">
-			<span><img src="images/view.png"></span>
-				<ul>
-				<li><a href="#">臻·妙——谢云、苏士澍在北京雍</a></li>
-				<li><a href="#">“守望相助?尽责圆梦”中国书法家协会创作活</a></li>
-				<li><a href="#">中国书法出版传媒有限责任公司问共和</a></li>
-				<li><a href="#">“中国书法之乡”命名授牌仪式在河南省郏县举行</a></li>
-				<li><a href="#">中国文字博物馆馆藏书画精品展暨中国字</a></li>
-				</ul>
-		</div>
-		
-
-		<div id="book-news">
-			<img src="images/book_news.png" ; height="54px">
-		<ul>
-				<li><a href="#">臻·妙——谢云、苏士澍在北京雍……<span>[04-25]</span></a></li>
-				<li><a href="#">“守望相助?尽责圆梦”中国书法家协会创作活...<span>[04-25]</span></a></li>
-				<li><a href="#">中国书法出版传媒有限责任公司问共和<span>[04-25]</span></a></li>
-				<li><a href="#">“中国书法之乡”命名授牌仪式在河南省郏县举行<span>[04-25]</span></a></li>
-				<li><a href="#">中国文字博物馆馆藏书画精品展暨中国字<span>[04-25]</span></a></li>
-				</ul>
-		</div>
-		
-
-		<div id="fengcai">
-			<img src="images/fengcai_bg1.png">
-			  <div id="fengcai2">
-				<ul>
-				 <li><a href="#"><img src="images/fengcai1.jpg"></a></li>
-				 <li><a href="#"><img src="images/fengcai2.jpg"></a></li>
-				 <li><a href="#"><img src="images/fengcai3.jpg"></a></li>
-				 <li><a href="#"><img src="images/fengcai4.jpg"></a></li>
-				</ul>
-			  </div>
-		</div>
-	</div>
-
-	<div id="content-bottom-right">
-		
-			<img src="images/show.png" ; height="20px" >
-	  		<img src="images/show_bg.png">
-	  		<span><img src="images/mingjia.jpg" ; height="224px">欧阳中石，山东省肥城市人，著名文化学者、书法家、书法教育家。早年拜在京剧大师奚啸伯的门下。现任首都师范大学教授、博士生导师、中国书法文化研究所所长，北京唐风美术馆名誉馆长。</span>
-
-
-	
-	</div>
-
-</div>
-	
-<div id="footer">
-	<img src="images/foot.gif" ; width="1212px">
-	<span>
-
-	</span>
-</div>
-
-
+    			</div>
+    			<span class="time">[04-25] [04-25] [04-25] [04-25] [04-25] [04-25] [04-25]</span>    			
+    		</div>
+    		<div>
+    			<div id="news_announce"></div>
+    			<div class="ul"></div>
+    			<div class="li">
+    				<ul>
+    				<li ><a href="#" style="color: #522a06;">臻·妙--谢云、苏士澎在北京雍········  </a></li>
+    				<li><a href="#" style="color: #522a06;">“守望相助·尽责圆梦”中国书法家协会创作活···</a></li>
+    				<li><a href="#" style="color: #522a06;">中国书法出版传媒有限责任公司问共和</a></li>
+    				<li><a href="#" style="color: #522a06;">“中国书法之乡命名授牌仪式在河南省郑县举行”</a></li>
+    				<li><a href="#" style="color: #522a06;">中国文学博物馆馆藏书画精品展暨中国字</a></li>
+    				<li><a href="#" style="color: #522a06;">第一节兰亭学校师生书法作品展获奖、入展名单</a></li>
+    				<li><a href="#" style="color: #522a06;">第25届中日友好自作诗书交流展</a></li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+    	<div id="content_bottom_left">
+    		<div id ="academic">
+    			<div class="xszm1"></div>
+    			<span class="xszm2"></span>
+    			<div class="qwe">
+    				<ul>
+    				<li ><a href="#" style="color: #522a06;">臻·妙--谢云、苏士澎在北京雍········  </a></li>
+    				<li><a href="#" style="color: #522a06;">“守望相助·尽责圆梦”中国书法家协会创作活···</a></li>
+    				<li><a href="#" style="color: #522a06;">中国书法出版传媒有限责任公司问共和</a></li>
+    				<li><a href="#" style="color: #522a06;">“中国书法之乡命名授牌仪式在河南省郑县举行”</a></li>
+    				<li><a href="#" style="color: #522a06;">中国文学博物馆馆藏书画精品展暨中国字</a></li>
+    				</ul>
+    			</div>
+    			<span class="time1">[2015-04-25] [2015-04-25] [2015-04-25] [2015-04-25] [2015-04-25]</span>
+    		</div>
+    		<div id="book_news">
+    			<div class="stxw1"></div>
+    			<span class="stxw2"></span>
+    			<div class="qwe1">
+    				<ul>
+    				<li ><a href="#" style="color: #522a06;">臻·妙--谢云、苏士澎在北京雍········  </a></li>
+    				<li><a href="#" style="color: #522a06;">“守望相助·尽责圆梦”中国书法家协会创作活···</a></li>
+    				<li><a href="#" style="color: #522a06;">中国书法出版传媒有限责任公司问共和</a></li>
+    				<li><a href="#" style="color: #522a06;">“中国书法之乡命名授牌仪式在河南省郑县举行”</a></li>
+    				<li><a href="#" style="color: #522a06;">中国文学博物馆馆藏书画精品展暨中国字</a></li>
+    				</ul>
+    			</div>
+    			<span class="time2" >[2015-04-25] [2015-04-25] [2015-04-25] [2015-04-25] [2015-04-25]</span>
+    		</div>
+    		<div id="fengcai">
+    			<div class="fc" ></div>
+    			<span class="yzfc1"></span>
+    			<div class="fc2"></div>
+    			<div class="fc3">
+    				<div class="fc4">
+    					<div id="fc5">
+    						<ul>
+    							<li><a href=""><img src="images/fengcai1.jpg"></a></li>
+    						</ul>
+    					</div>
+    				</div>
+    				<div class="fc4">
+    					<ul class="fc5">
+    						<li><a href=""><img src="images/fengcai2.jpg"></a></li>
+    					</ul>
+    				</div>
+    				<div class="fc4">
+    					<ul class="fc5">
+    						<li><a href="#"><img src="images/fengcai3.jpg"></a></li>
+	   					</ul>
+	   				</div>
+	   				<div class="fc4">
+	   					<div class="fc5">
+    						<ul>
+    							<li><a href=""><img src="images/fengcai4.jpg"></a></li>
+    						</ul>
+    					</div>	
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<div id="content_bottom_right">
+    		<div class="asd1"></div>
+    		<div class="asd2"></div>   		
+    		<div class="asd3"></div>
+    		<div class="asd4" style="color: #522a06;"><font color="red" class="asd5">欧阳中石</font>，山东肥城人，著名文化学者、书法家、书法教育家。早年拜在京剧大师奚啸伯的门下。现任首都师范大学教授、博士生导师、中国书法文化研究所所长，北京唐风美术馆名誉馆长。</div>
+    		<div class="asd6"></div>
+    	</div>
+    </div>
+    <!--页脚部分-->
+    <div id="footer">
+    	<div class="xswljc" >
+    		<a href="#">电子信箱</a>|&nbsp;<a href="#">设为首页</a>|&nbsp;
+    		<a href="#">在线咨询</a>|&nbsp;<a href="#">加入收藏</a>|&nbsp;<a href="#">网站地图</a>|&nbsp;<a href="#">关于我们</a>
+    	</div>
+    	<div class="jkl"><img src="images/line.jpg" ></div>
+    	<div class="ljcxsw">Copyright2013-2014 Hebshufajia.com,All Rights Reserved</br>冀ICP备05067795号 冀公网安备110402440008号</div>
+    </div>
 </body>
 </html>

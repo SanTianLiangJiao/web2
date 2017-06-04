@@ -1,0 +1,206 @@
+body{
+	background-image: url(../images/bodybg.gif);
+	font-size: 12px;
+	color: #522a06;
+	font-family: '宋体';
+	border-style: none;
+	list-style-type:none;
+	
+}
+*{
+	margin:0 auto;
+	padding: 0;
+	border: 0px;
+
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:link{
+	color: #522a06;
+}
+a:hover{
+	text-decoration: underline;
+}
+#header{
+	background-image: url(../images/bg.gif);
+	height: 205px;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+#banner{
+	float: left;
+	margin-left: 25px;
+	margin-top: 38px;
+	width: 1000px;
+	height: 130px;		
+}
+#nav{	
+	float:left;		
+	height: 40px;
+	background-image: url(../images/nav.jpg);
+	width: 100%;
+	background-repeat: repeat-x;
+	height: 40px;
+	padding: 0;
+	margin-top: auto 0;
+}
+.nav_body{
+	width: 1000px;
+	font-weight: bold;
+	color: #522a06;
+	line-height: 40px;
+			
+}
+
+.nav_content{
+	width: 800px;
+	position: center;
+	float: left;
+}
+a.two:link{
+	color: #fff;
+}
+a.two:hover{
+	text-decoration: none;
+	color: #f9f603;
+}
+.nav_serach{
+	float: right;
+}
+#content{
+	width: 1000px;
+	overflow: hidden;
+	color: #522a06;
+}
+a.lj{
+	color: #522a06;
+}
+#content_left{
+	width: 200px;
+	float: left;
+	margin-top: 20px;
+}
+#content_right{
+	width: 780px;
+	margin-top: 20px;
+	float: left;
+}
+#pxdt{
+	background-image: url(../images/bg.png);
+	width: 200px;
+	border-bottom: 20px;
+	border:1px solid #000;
+	margin-top: 20px;
+}
+.pxdtt{
+	text-align: center;
+}
+.pxlb{
+	line-height: 30px;
+	text-align: center;
+}
+#zjgx{
+	background-image: url(../images/bg.png);
+	width: 200px;
+	margin-top: 20px;
+	border:1px solid #000;
+}
+#zjgxt{
+	text-align: center;	
+}
+.zjlb{
+	text-align: center;
+	line-height: 30px;
+}
+.zslb{
+	line-height: 30px;
+	padding-left: 30px;
+	
+}
+a.zslb{
+	line-height: 30px;
+	color: #522a06;
+}
+#bmdh{
+	height: 64px;
+	width: 200px;
+	margin-top: 20px;
+
+}
+#zsqs{
+	background-image: url(../images/listtitle.png);
+	width: 700px;
+	height: 40px;
+	margin-left: 20px;
+	margin-top:35px;
+	font-size: 25px;
+	padding-left: 50px;
+	padding-top: 5px;
+	color: #cd2626;
+}
+#hy{
+	float: left;
+	color: #522a06;
+}
+a.hy{
+	color: #522a06;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+	height: 105px;
+	clear: both;
+	background-image: url(../images/foot.gif);
+	color: #522a06;
+	text-align: center;
+	position: relative;
+	top: 200px;
+}
+a.yj:link{
+	color: #522a06;
+
+}
+a.yj:hover{
+	text-decoration: none;
+	color: #522a06;
+}
+a.yj{
+	text-align: center;
+	color: #522a06;
+}

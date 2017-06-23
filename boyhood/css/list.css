@@ -1,0 +1,87 @@
+body{
+
+font-size: 25px;
+padding: 0px;
+font-family: '楷体';
+border-style: none;
+list-style-type:none;
+}
+a{
+	text-decoration: none;
+}
+
+#da{
+background-image: url(../images/listbg.jpg);
+	width: 100%;
+	background-repeat: repeat-x;
+	height: 1400px;
+	width: 1300px;
+	
+
+}
+
+
+#header{
+
+
+}
+#bg1{
+height: 600px;
+width: 100%;
+float: left;
+background-repeat: no-repeat;
+}
+#nav{
+	float:left;		
+	height: 40px;
+	
+	padding: 0;
+	width: 100%;
+	margin-top: auto 0;
+
+position: absolute;
+top: 547px;
+
+}
+#daohang{
+
+	width: 1000px;
+	font-weight: bold;
+	color: #522a06;
+	line-height: 40px;
+}
+#daohangneirong{
+width: 800px;
+	position: center;
+	float: left;
+
+}
+
+#sousuo{
+float: right;
+
+
+}
+#biaoti{
+	font-size: 25px;
+	color: pink;
+	position: absolute;
+	left: 200px;
+}
+#liebiao{
+	height: 500px;
+	width: 500px;
+	position: absolute;
+	top: 500px;
+}
+#banquan{
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	font-size: 15px;
+	color: white;
+	float: left;
+	padding-left: 300px;
+	position: absolute;
+	top: 1700px;
+}

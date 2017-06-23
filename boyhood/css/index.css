@@ -1,0 +1,120 @@
+body{
+
+font-size: 21px;
+padding: 0px;
+font-family: '楷体';
+border-style: none;
+list-style-type:none;
+}
+a{
+	text-decoration: none;
+}
+
+
+#header{
+position: absolute;
+bottom: 0px;
+
+}
+#bg1{
+height: 600px;
+width: 100%;
+float: left;
+background-repeat: no-repeat;
+}
+#nav{
+	float:left;		
+	height: 40px;
+	
+	padding: 0;
+	width: 100%;
+	margin-top: auto 0;
+
+position: absolute;
+top: 547px;
+
+}
+#daohang{
+
+	width: 1000px;
+	font-weight: bold;
+	color: #522a06;
+	line-height: 40px;
+}
+#daohangneirong{
+width: 800px;
+	position: center;
+	float: left;
+
+}
+
+#sousuo{
+float: right;
+
+
+}
+#center{
+	width: 1300px;
+	position: absolute;
+	top: 596px;
+	clear: both;
+	background-image: url(../images/wenzibg.jpg);
+	width: 100%;
+	background-repeat: repeat-x;
+	height: 1400px;
+	width: 1300px;
+	padding: 0;
+	margin-top: auto 0;
+}
+#left{
+width: 200px;
+height: 200px;
+float: left;
+}
+#right{
+
+float: right;
+position: absolute;
+right: 130px;
+}
+#thelast{
+	height: 600px;
+
+}
+#kuangjia{
+	height: 400px;
+	width: 90%;
+	border: 3px solid #000;
+	float: left;
+	position: absolute;
+	top: 1040px;
+}
+#tupianqu{
+ float: left;
+
+}
+#wenziqu{
+	width: 400px;
+	height: 350px;
+	float: right;
+	font-size: 21px;
+	color: black;
+    position: absolute;
+    right: 190px;
+}
+#banquan{
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	font-size: 15px;
+	color: white;
+	float: left;
+	padding-left: 300px;
+	position: absolute;
+	top: 1700px;
+
+}
+#da{
+	width: 1300px;
+	height: 1000px;
+}
